@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-10-16 01:34:22">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<application_name>EC2 Monitoring and Remediation</application_name>
+<application_scope>x_snc_ec2_monito_0</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>AI Agent integration for EC2 instance remediation with manual system comparison</description>
+<inserted/>
+<name>EC2 AI Agent Enhancement</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>b4422f22cda072107f4480566d674e4c</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-16 01:34:22</sys_created_on>
+<sys_id>6be1b726cd2472107f4480566d674e0a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-16 01:34:22</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>oauth_2_0_credentials_321250fd4f641210f1bba92723ce0b5f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="oauth_2_0_credentials"><oauth_2_0_credentials action="INSERT_OR_UPDATE"><active>true</active><application display_value="Omni-Experience Standard Feature Set">53b1b0e79761011018b2fa98c253afcc</application><applies_to>all</applies_to><authentication_key/><authentication_protocol/><classification>oauth_2_0</classification><context_name/><credential_id/><credential_storage_vault/><credential_store_type/><integration_type>personal</integration_type><lookup_key/><mid_list/><name>Sidebar - Slack User Token Credentials</name><oauth_entity_profile display_value="Sidebar Slack OAuth User Token default_profile">d4b290314fa41210f1bba92723ce0b54</oauth_entity_profile><order>100</order><password/><privacy_key/><privacy_protocol/><ssh_certificate/><ssh_passphrase/><ssh_private_key/><sys_class_name>oauth_2_0_credentials</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-10 09:07:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>321250fd4f641210f1bba92723ce0b5f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-10 09:07:11</sys_updated_on><tag/><type>oauth_2_0</type><use_context>false</use_context><use_high_security>false</use_high_security><use_mid>false</use_mid><user_name/></oauth_2_0_credentials></record_update>]]></payload>
+<payload_hash>770563135</payload_hash>
+<remote_update_set display_value="EC2 AI Agent Enhancement">6be1b726cd2472107f4480566d674e0a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-16 01:34:22</sys_created_on>
+<sys_id>27e1b726cd2472107f4480566d674e0b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199eaa4b10d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-16 01:34:22</sys_updated_on>
+<table/>
+<target_name>Sidebar - Slack User Token Credentials</target_name>
+<type>OAuth 2.0 Credentials</type>
+<update_domain>global</update_domain>
+<update_guid>e84137e2bc247210914fd9aa48b11f65</update_guid>
+<update_guid_history>e84137e2bc247210914fd9aa48b11f65:770563135</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>http_connection_d6eb34d29fb0121029ead63a6a0a1c03</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="http_connection"><http_connection action="INSERT_OR_UPDATE"><active>true</active><app_scope display_value="AI Websearch">bc05f7869ff4121029ead63a6a0a1cb5</app_scope><application display_value="ALL">35aa573fd7802200bdbaee5b5e610375</application><base_path/><capabilities/><connection_alias display_value="sn_ai_websearch.Google_Search_API">2b738c169f38121029ead63a6a0a1c38</connection_alias><connection_retries>0</connection_retries><connection_timeout/><connection_url>https://www.googleapis.com/customsearch/v1</connection_url><credential display_value="Google API key">15bb30d29fb0121029ead63a6a0a1c16</credential><extended_attributes/><host>www.googleapis.com</host><is_internal>false</is_internal><mid_cluster/><mid_protocol_profile/><mid_selection>auto_select</mid_selection><mid_server/><mutual_auth>false</mutual_auth><name>Google API connection</name><order>100</order><port/><protocol>https</protocol><protocol_profile/><sys_class_name>http_connection</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-24 11:34:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6eb34d29fb0121029ead63a6a0a1c03</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-24 11:34:20</sys_updated_on><url_builder>false</url_builder><use_mid>false</use_mid></http_connection><sys_variable_value action="delete_multiple" query="document_key=d6eb34d29fb0121029ead63a6a0a1c03"/></record_update>]]></payload>
+<payload_hash>2135165682</payload_hash>
+<remote_update_set display_value="EC2 AI Agent Enhancement">6be1b726cd2472107f4480566d674e0a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-16 01:34:22</sys_created_on>
+<sys_id>2fe1b726cd2472107f4480566d674e0a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199eaa459710000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-16 01:34:22</sys_updated_on>
+<table/>
+<target_name>Google API connection</target_name>
+<type>HTTP(s) Connection</type>
+<update_domain>global</update_domain>
+<update_guid>0f21fba2bf247210568a612e751fceae</update_guid>
+<update_guid_history>0f21fba2bf247210568a612e751fceae:2135165682</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_a2208000890432107f444c0145508b82</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_extendable>false</is_extendable><label>EC2 Instance</label><live_feed_enabled>false</live_feed_enabled><name>x_snc_ec2_monito_0_ec2_instance</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 17:02:33</sys_created_on><sys_id>a2208000890432107f444c0145508b82</sys_id><sys_mod_count>0</sys_mod_count><sys_name>EC2 Instance</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sys_db_object_a2208000890432107f444c0145508b82</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 17:02:33</sys_updated_on><update_access>false</update_access><user_role display_value="x_snc_ec2_monito_0.ec2_instance_user" name="x_snc_ec2_monito_0.ec2_instance_user">e3ddff7789f322107f444c0145508b16</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>579496935</payload_hash>
+<remote_update_set display_value="EC2 AI Agent Enhancement">6be1b726cd2472107f4480566d674e0a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-16 01:34:22</sys_created_on>
+<sys_id>6fe1b726cd2472107f4480566d674e0b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199ea8f226d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-16 01:34:22</sys_updated_on>
+<table>x_snc_ec2_monito_0_ec2_instance</table>
+<target_name>EC2 Instance</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>f3dbaba660e0721072ad93c0ba186580</update_guid>
+<update_guid_history>f3dbaba660e0721072ad93c0ba186580:579496935,9d5048009c043210a156924b02fe0f6b:579496935</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Now Assist AI Agents">32808450431302106c3603295bb8f245</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_4c0441b3916a22107f449a0c775c48c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>true</delete_access><filter_extension/><is_extendable>false</is_extendable><label>Agent Tool</label><live_feed_enabled>false</live_feed_enabled><name>sn_aia_agent_tool_m2m</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Application File" name="sys_metadata">a35203003d0122107f4488addddbe298</super_class><sys_class_name>sys_db_object</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2025-07-12 00:01:16</sys_created_on><sys_id>4c0441b3916a22107f449a0c775c48c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sn Aia Agent Tool M2m</sys_name><sys_package display_value="Now Assist AI Agents" source="sn_aia">32808450431302106c3603295bb8f245</sys_package><sys_policy/><sys_scope display_value="Now Assist AI Agents">32808450431302106c3603295bb8f245</sys_scope><sys_update_name>sys_db_object_4c0441b3916a22107f449a0c775c48c1</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-07-12 00:01:16</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-667027266</payload_hash>
+<remote_update_set display_value="EC2 AI Agent Enhancement">6be1b726cd2472107f4480566d674e0a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-16 01:34:22</sys_created_on>
+<sys_id>abe1b726cd2472107f4480566d674e0b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199ea8c26580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-16 01:34:22</sys_updated_on>
+<table>sn_aia_agent_tool_m2m</table>
+<target_name>Agent Tool</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>402beb26c2e0721027f36413afa7c6b2</update_guid>
+<update_guid_history>402beb26c2e0721027f36413afa7c6b2:-667027266</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</application>
+<category>customer</category>
+<comments/>
+<name>sn_aia_agent_a60d3aa50d8432107f44613ead8281d5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_aia_agent"><sn_aia_agent action="INSERT_OR_UPDATE"><description>Helps DevOps engineers restart EC2 instances from incident tickets by reading incident descriptions and executing remediation scripts with human approval</description><instructions>First, discover EC2 *Instance IDs* and *Instance Names* on the EC2 instance table (x_snc_ec2_monito_0_ec2_instance).
+
+Second, search the incident table (u_incident) and return record numbers containing the EC2 *Instance ID* or the *Instance Name* in the record description. ALWAYS return identified Incident Number and ALWAYS return Instance ID and ALWAYS return Instance Name.
+
+Ask to proceed with the following:
+*Execute remediation script "call_ec2_remediation.js"
+Return results of the executed script after activation.</instructions><internal_name>global.x_snc_ec2_monito_0.EC2 Remediation Assistant</internal_name><name>EC2 Remediation Assistant</name><proficiency>- The agent is specialized in identifying and resolving issues with EC2 instances that have failed. This involves a deep understanding of EC2 operations and the ability to effectively troubleshoot and remediate instances to ensure they are operational again.
+- The agent is capable of discovering EC2 Instance IDs and Instance Names from the EC2 instance table (x_snc_ec2_monito_0_ec2_instance), which is essential for identifying the instances that need attention.
+- The agent can search the incident table to retrieve incident records containing EC2 Instance IDs or Instance Names in the record description, providing insight into the issues and facilitating targeted remediation efforts.
+- Using the 'EC2 Instance Incident Reporter', the agent can efficiently retrieve incident numbers, Instance Names, and Instance IDs from the short description of incident records, enabling precise identification of the instances needing remediation.
+- The agent can execute the 'call_ec2_remediation.js' script to remediate failed EC2 instances, leveraging the AWS Integration Server connection to establish API calls and resolve issues based on the instance IDs provided in incident records.
+- The agent can integrate the use of 'EC2 Instance Incident Reporter' and 'call_ec2_remediation.js' to perform a complete remediation cycle, ensuring that failed EC2 instances are accurately identified and effectively restored to operational status.</proficiency><record_type>custom</record_type><role>You are a EC2 remediation specialist for DevOps operations who specializes at getting failed instances to run again.</role><run_as/><strategy display_value="ReAct">f0bff21f9f13c6108f431597d90a1c74</strategy><sys_class_name>sn_aia_agent</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-17 22:41:44</sys_created_on><sys_domain>global</sys_domain><sys_id>a60d3aa50d8432107f44613ead8281d5</sys_id><sys_mod_count>28</sys_mod_count><sys_name>EC2 Remediation Assistant</sys_name><sys_package display_value="EC2 Monitoring and Remediation" source="x_snc_ec2_monito_0">de98b3bf89b322107f444c0145508b68</sys_package><sys_policy/><sys_scope display_value="EC2 Monitoring and Remediation">de98b3bf89b322107f444c0145508b68</sys_scope><sys_update_name>sn_aia_agent_a60d3aa50d8432107f44613ead8281d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-15 23:41:45</sys_updated_on></sn_aia_agent></record_update>]]></payload>
+<payload_hash>-1157560886</payload_hash>
+<remote_update_set display_value="EC2 AI Agent Enhancement">6be1b726cd2472107f4480566d674e0a</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-10-16 01:34:22</sys_created_on>
+<sys_id>e7e1b726cd2472107f4480566d674e0b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>199ea8977370000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-10-16 01:34:22</sys_updated_on>
+<table/>
+<target_name>EC2 Remediation Assistant</target_name>
+<type>AI Agent</type>
+<update_domain>global</update_domain>
+<update_guid>0d7aa3e20be07210292d5c5128e11d40</update_guid>
+<update_guid_history>0d7aa3e20be07210292d5c5128e11d40:-1157560886,0228176ab2207210eec1f31ee97bfd4f:-1157560886,3c28d36ab2207210f5f4ee2f01c127a0:-1723281696,6828936a5c207210f7d7712f40c3e70d:24741959,1428936abb2072100337e041f42ce81c:-1378492542,d7598be667ac32101f87414b897ae7a0:-1212299813,7d594be6c6ac32108503bd6410ae25a6:2078093718,1de4436e7f6c32103566b8d7faed2214:-1035202238,2ce4436e936c32107bfdcc625605ee0a:1569766523,0d644feaad6c321018f426e86e6a79bb:-1800778246,4b54cfaa766c3210efe4fcecf92a03df:-196797351,d5313c748c9032108f55068401c2a42f:-432542238,77213c74cd9032101039d95e33c5780e:-1415201671,d2a0f434d8903210e586f96d48ac3c28:-1118252961,a0a0b03483903210edb6f1f332e8fe1f:-2105706862,932e20bc6a503210db9152020f35b298:1561631343,ce2ee0b8295032108fefe672dfc3b1d5:275067588,f81d28f843503210948efda51b669efb:2072460505,b2e1ddd66e483210b047b286c6f27dcf:20244731,6c0f45524048321027929e3f6a35c34b:747090248,039c89daef083210115edb860a257d64:-1504747268,ed880192090832103eccbf6bd11661bf:-68783912,1f684d52500832102e3579db9f020fcf:1274674563,de6881de91c432100681d0c245f0fcc8:1581025781,3f3741dedfc43210d823cc337b2c20fe:-44611781,68938596b9c43210aa0479942f4ed642:1344531704,fe83019633c43210382856ecf49a50f5:336676721,dff5bc964f443210ab89be4363fa7acc:64444829,980e3e290d84321077df612fad6b9d02:852254978,b1edbaa5df843210cc64c62bac475f4f:1917775060</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
