@@ -118,45 +118,24 @@ The **Enhanced EC2 Remediation System** introduces a **conversational AI layer**
 ---
 
 ## 🗺️ Architecture Diagram
-📁 *Diagram.png* (created in Draw.io)  
+<img width="1536" height="1024" alt="Diagram" src="https://github.com/user-attachments/assets/4ed53041-b988-4f24-bae1-d5b11d80a32b" />
 
-**Workflow Overview:**
-AWS EC2 → AWS Integration Server → ServiceNow EC2 Table → Flow Designer Workflow
-↘︎ Manual UI Action → RemediationHelper.js
-↘︎ AI Agent Conversation → Script Tool → RemediationHelper.js → AWS API
-
-yaml
-Copy code
-
----
-
-## 🧰 Update Set Components
-Ensure your update set includes:
-- **AI Agent Definition** (`sn_aia_agent`)  
-- **Script Tool** (`sn_aia_agent_tool`)  
-- **Agent-Tool Relationships** (`sn_aia_agent_tool_m2m`)  
-- **Execution Plans** (`sn_aia_execution_plan`)  
-- **Execution Plan Tasks** (`sn_aia_execution_plan_task`)  
-- **AWS Connection & Credentials**  
-- **EC2 Instance & Remediation Log records**  
 
 ---
 
 ## 📸 Screenshot Placeholders
-- AI Agent conversation demo  
-- Human approval flow  
-- Successful remediation log entry  
-- API response verification  
+- AI Agent conversation demo
+-  <img width="1899" height="919" alt="ec2 remediation agent success" src="https://github.com/user-attachments/assets/10e77161-17dd-4919-a1af-e32cb59825cd" />
+ 
+- Successful remediation log entry
+- <img width="913" height="535" alt="image" src="https://github.com/user-attachments/assets/bc5a6434-aab2-48a7-b4eb-a62e926e72ed" />
 
 ---
 
 ## 🚀 Optimization & Future Enhancements
 - **Slack/Teams Integration:** Approve or trigger remediation from messaging platforms  
-- **Enhanced NLP Parsing:** Handle multiple incident formats and edge cases  
+ 
 - **Auto-Remediation Threshold:** Define safe conditions for auto-execution without approval  
 
 ---
 
-## 🙏🏾 Thanks for Scrolling This Far
-This project demonstrates how AI can **enhance human workflows** without replacing operational control.  
-Built with precision, patience, and just a touch of caffeine ☕.  
