@@ -118,7 +118,8 @@ The **Enhanced EC2 Remediation System** introduces a **conversational AI layer**
 ---
 
 ## 🗺️ Architecture Diagram
-<img width="1536" height="1024" alt="Diagram" src="https://github.com/user-attachments/assets/4ed53041-b988-4f24-bae1-d5b11d80a32b" />
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/ea1fe54a-25a6-4431-9e5b-02ef9b401b4f" />
+
 
 
 ---
