@@ -64,14 +64,9 @@ Example command:
 
 Restart instance i-09ae69f1cb71f622e
 
-## 📸 Screenshot Placeholders
-- AI Agent conversation demo
--  <img width="1899" height="919" alt="ec2 remediation agent success" src="https://github.com/user-attachments/assets/10e77161-17dd-4919-a1af-e32cb59825cd" />
- 
-- Successful remediation log entry
-- <img width="913" height="535" alt="image" src="https://github.com/user-attachments/assets/bc5a6434-aab2-48a7-b4eb-a62e926e72ed" />
+- AI Agent conversation demo/ Succesful remediation log entry
+<img width="1868" height="893" alt="image" src="https://github.com/user-attachments/assets/4bd5fab2-b26e-4120-b8da-59fcacfffa9f" />
 
----
 
 The agent identifies the EC2 ID, asks for approval, runs the same API call, and logs it automatically.
 
