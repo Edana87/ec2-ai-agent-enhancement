@@ -18,8 +18,6 @@ Translate that into a valid EC2 instance ID.
 
 Ask for human approval before running the same API remediation scripts the manual system used.
 
-It’s not about replacing engineers — it’s about helping them breathe easier during chaos.
-
 🛠️ How I Built It
 
 This project lives inside ServiceNow, with a mix of familiar tools and a few new ones I learned on the fly.
