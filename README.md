@@ -8,7 +8,7 @@ That’s how this project started.
 
 🧠 The Idea
 
-During Netflix’s busiest streaming hours, EC2 incidents pile up fast. Engineers had to open the incident, copy the instance ID, run the remediation, then verify logs — all under pressure.
+During Netflix’s busiest streaming hours, EC2 incidents pile up fast. Engineers had to open the incident, copy the instance ID, run the remediation, then verify logs.
 
 I built an AI-powered extension for the WL2 system that could:
 
@@ -30,11 +30,11 @@ Built the AI Agent architecture in ServiceNow’s AI Agent Studio.
 
 Created a Script Tool that bridges conversational input with the AWS Integration Server API.
 
-Reused the existing RemediationHelper logic so the new system mirrors the manual one exactly — same logs, same API payloads.
+Reused the existing RemediationHelper logic so the new system mirrors the manual one exactly (same logs, same API payloads).
 
 Tested both approaches side-by-side to make sure the AI version never skipped a safety step.
 
-I learned a lot about how to keep human-in-the-loop design functional — especially how to balance automation with operational trust.
+I learned a lot about how to keep human-in-the-loop design functional. 
 
 💬 What It Feels Like to Use
 
@@ -45,8 +45,6 @@ Manual Mode: The old-school button that says “Restart EC2 Instance.”
 AI Mode: You literally type, “Restart instance i-09ae69f1cb71f622e,” and the agent walks you through the process — confirming the instance, requesting approval, executing the script, and logging everything.
 
 Both paths end up in the same Remediation Log table, so it’s fully traceable.
-
-It’s surprisingly satisfying to watch the agent interpret a sentence, call the right API, and show you the same confirmation screen you’d get manually.
 
 🧑‍💻 DevOps Usage
 
@@ -66,33 +64,29 @@ Example command:
 
 Restart instance i-09ae69f1cb71f622e
 
+## 📸 Screenshot Placeholders
+- AI Agent conversation demo
+-  <img width="1899" height="919" alt="ec2 remediation agent success" src="https://github.com/user-attachments/assets/10e77161-17dd-4919-a1af-e32cb59825cd" />
+ 
+- Successful remediation log entry
+- <img width="913" height="535" alt="image" src="https://github.com/user-attachments/assets/bc5a6434-aab2-48a7-b4eb-a62e926e72ed" />
 
-Or let the agent find it:
-
-Restart the instance for stream-node-23 that failed overnight
-
+---
 
 The agent identifies the EC2 ID, asks for approval, runs the same API call, and logs it automatically.
 
-🧩 The Architecture (In Plain English)
+🧩 The Architecture 
 
 Here’s how everything connects:
 
 AWS EC2 → AWS Integration Server → ServiceNow Tables → Flow Designer Workflow → AI Agent Conversation Interface
+<img width="1024" height="1024" alt="Diagram" src="https://github.com/user-attachments/assets/e52e7812-bb66-4b21-9ddd-341a65648d4a" />
 
-It’s like giving the WL2 system a voice. The AI layer doesn’t replace anything — it just adds a smarter entry point for existing scripts.
+The AI layer doesn’t replace anything, it just adds a smarter entry point for existing scripts.
 
 🔍 What I Learned
 
-This project was my deep dive into human-approved automation. I realized that the real challenge isn’t building the workflow — it’s making people trust the workflow.
-
-Here are a few takeaways:
-
-Natural language is powerful — but structure and context are everything.
-
-Approval flows matter. Engineers want automation, not surprises.
-
-Reusability beats reinvention. Adapting RemediationHelper.js saved time and reduced risk.
+This project was my deep dive into human-approved automation. 
 
 🚀 What’s Next
 
@@ -104,16 +98,9 @@ Set smart auto-remediation thresholds, where the system knows when it’s safe t
 
 💡 Try It Yourself
 
-If you’re exploring ServiceNow’s AI Agent Studio or AWS integrations, this is a great project to experiment with. You can replicate it in a Yokohama PDI, reuse your own Script Include, and see how AI can sit naturally inside existing operations — not on top of them.
+If you’re exploring ServiceNow’s AI Agent Studio or AWS integrations, this is a great project to experiment with. 
 
-## 📸 Screenshot Placeholders
-- AI Agent conversation demo
--  <img width="1899" height="919" alt="ec2 remediation agent success" src="https://github.com/user-attachments/assets/10e77161-17dd-4919-a1af-e32cb59825cd" />
- 
-- Successful remediation log entry
-- <img width="913" height="535" alt="image" src="https://github.com/user-attachments/assets/bc5a6434-aab2-48a7-b4eb-a62e926e72ed" />
 
----
 
 
 
